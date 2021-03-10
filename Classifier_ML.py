@@ -55,7 +55,7 @@ print(metrics.accuracy_score(y_test, pred_dt)*100)
 print(confusion_matrix(y_test, pred_dt))
 print(classification_report(y_test, pred_dt))
 
-# 2nd Algorithm: Gaussian NB
+# 2nd Algorithm: Gaussian Naive Bayes
 nb = GaussianNB()
 nb.fit(x_train, y_train)
 pred_nb = nb.predict(x_test)
