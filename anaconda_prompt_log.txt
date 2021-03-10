@@ -1,0 +1,88 @@
+
+(base) C:\Users\ralph>pip install sklearn
+Collecting sklearn
+  Downloading sklearn-0.0.tar.gz (1.1 kB)
+Requirement already satisfied: scikit-learn in d:\anaconda3\lib\site-packages (from sklearn) (0.23.2)
+Requirement already satisfied: threadpoolctl>=2.0.0 in d:\anaconda3\lib\site-packages (from scikit-learn->sklearn) (2.1.0)
+Requirement already satisfied: joblib>=0.11 in d:\anaconda3\lib\site-packages (from scikit-learn->sklearn) (0.17.0)
+Requirement already satisfied: scipy>=0.19.1 in d:\anaconda3\lib\site-packages (from scikit-learn->sklearn) (1.5.2)
+Requirement already satisfied: numpy>=1.13.3 in d:\anaconda3\lib\site-packages (from scikit-learn->sklearn) (1.19.2)
+Building wheels for collected packages: sklearn
+  Building wheel for sklearn (setup.py) ... done
+  Created wheel for sklearn: filename=sklearn-0.0-py2.py3-none-any.whl size=1321 sha256=3fe84bb9b5267d2349faccceadde3b3f349b7afaedc9873df478201c659998a2
+  Stored in directory: c:\users\ralph\appdata\local\pip\cache\wheels\22\0b\40\fd3f795caaa1fb4c6cb738bc1f56100be1e57da95849bfc897
+Successfully built sklearn
+Installing collected packages: sklearn
+Successfully installed sklearn-0.0
+
+(base) C:\Users\ralph>pip install matplotlib
+Requirement already satisfied: matplotlib in d:\anaconda3\lib\site-packages (3.3.2)
+Requirement already satisfied: pillow>=6.2.0 in d:\anaconda3\lib\site-packages (from matplotlib) (8.0.1)
+Requirement already satisfied: certifi>=2020.06.20 in d:\anaconda3\lib\site-packages (from matplotlib) (2020.6.20)
+Requirement already satisfied: python-dateutil>=2.1 in d:\anaconda3\lib\site-packages (from matplotlib) (2.8.1)
+Requirement already satisfied: numpy>=1.15 in d:\anaconda3\lib\site-packages (from matplotlib) (1.19.2)
+Requirement already satisfied: kiwisolver>=1.0.1 in d:\anaconda3\lib\site-packages (from matplotlib) (1.3.0)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.3 in d:\anaconda3\lib\site-packages (from matplotlib) (2.4.7)
+Requirement already satisfied: cycler>=0.10 in d:\anaconda3\lib\site-packages (from matplotlib) (0.10.0)
+Requirement already satisfied: six>=1.5 in d:\anaconda3\lib\site-packages (from python-dateutil>=2.1->matplotlib) (1.15.0)
+
+(base) C:\Users\ralph>pip install numpy
+Requirement already satisfied: numpy in d:\anaconda3\lib\site-packages (1.19.2)
+
+(base) C:\Users\ralph>pip install sklearn.model_selection
+ERROR: Could not find a version that satisfies the requirement sklearn.model_selection (from versions: none)
+ERROR: No matching distribution found for sklearn.model_selection
+
+(base) C:\Users\ralph>pip install sklearn.ensemble
+ERROR: Could not find a version that satisfies the requirement sklearn.ensemble (from versions: none)
+ERROR: No matching distribution found for sklearn.ensemble
+
+(base) C:\Users\ralph>pip install sklearn_ensemble
+ERROR: Could not find a version that satisfies the requirement sklearn_ensemble (from versions: none)
+ERROR: No matching distribution found for sklearn_ensemble
+
+(base) C:\Users\ralph>pip install ensemble
+Collecting ensemble
+  Downloading ensemble-0.0.dev1.tar.gz (3.4 kB)
+Collecting docopt
+  Downloading docopt-0.6.2.tar.gz (25 kB)
+Requirement already satisfied: lxml in d:\anaconda3\lib\site-packages (from ensemble) (4.6.1)
+Requirement already satisfied: numpy in d:\anaconda3\lib\site-packages (from ensemble) (1.19.2)
+Requirement already satisfied: pandas in d:\anaconda3\lib\site-packages (from ensemble) (1.1.3)
+Collecting pyprind
+  Downloading PyPrind-2.11.2-py3-none-any.whl (8.6 kB)
+Collecting pysut
+  Downloading pysut-1.1.zip (30 kB)
+Requirement already satisfied: pytest in d:\anaconda3\lib\site-packages (from ensemble) (0.0.0)
+Collecting stats_arrays
+  Downloading stats_arrays-0.6.4.tar.gz (22 kB)
+Requirement already satisfied: wrapt in d:\anaconda3\lib\site-packages (from ensemble) (1.11.2)
+Requirement already satisfied: pytz>=2017.2 in d:\anaconda3\lib\site-packages (from pandas->ensemble) (2020.1)
+Requirement already satisfied: python-dateutil>=2.7.3 in d:\anaconda3\lib\site-packages (from pandas->ensemble) (2.8.1)
+Requirement already satisfied: scipy in d:\anaconda3\lib\site-packages (from pysut->ensemble) (1.5.2)
+Requirement already satisfied: attrs>=17.4.0 in d:\anaconda3\lib\site-packages (from pytest->ensemble) (20.3.0)
+Requirement already satisfied: iniconfig in d:\anaconda3\lib\site-packages (from pytest->ensemble) (1.1.1)
+Requirement already satisfied: packaging in d:\anaconda3\lib\site-packages (from pytest->ensemble) (20.4)
+Requirement already satisfied: pluggy<1.0,>=0.12 in d:\anaconda3\lib\site-packages (from pytest->ensemble) (0.13.1)
+Requirement already satisfied: py>=1.8.2 in d:\anaconda3\lib\site-packages (from pytest->ensemble) (1.9.0)
+Requirement already satisfied: toml in d:\anaconda3\lib\site-packages (from pytest->ensemble) (0.10.1)
+Requirement already satisfied: atomicwrites>=1.0 in d:\anaconda3\lib\site-packages (from pytest->ensemble) (1.4.0)
+Requirement already satisfied: colorama in d:\anaconda3\lib\site-packages (from pytest->ensemble) (0.4.4)
+Requirement already satisfied: six>=1.5 in d:\anaconda3\lib\site-packages (from python-dateutil>=2.7.3->pandas->ensemble) (1.15.0)
+Requirement already satisfied: pyparsing>=2.0.2 in d:\anaconda3\lib\site-packages (from packaging->pytest->ensemble) (2.4.7)
+Building wheels for collected packages: ensemble, docopt, pysut, stats-arrays
+  Building wheel for ensemble (setup.py) ... done
+  Created wheel for ensemble: filename=ensemble-0.0.dev1-py3-none-any.whl size=4419 sha256=714ab5993ce870a61a9eb55e85618acc191903ff3f07a45b009c6a743fcc8f1d
+  Stored in directory: c:\users\ralph\appdata\local\pip\cache\wheels\1d\c0\ff\d3837fde56cab443128c9635f560a4707dcdf30fa7621191b6
+  Building wheel for docopt (setup.py) ... done
+  Created wheel for docopt: filename=docopt-0.6.2-py2.py3-none-any.whl size=13709 sha256=390a3f04f7a02920ccf5ddc81900bac6e74ed9999cda57f98b2f56b08aad4147
+  Stored in directory: c:\users\ralph\appdata\local\pip\cache\wheels\56\ea\58\ead137b087d9e326852a851351d1debf4ada529b6ac0ec4e8c
+  Building wheel for pysut (setup.py) ... done
+  Created wheel for pysut: filename=pysut-1.1-py3-none-any.whl size=29097 sha256=62c18bb7bc33a53b04cba08d0673427cb1410a41cd3019c28d642cb30922cd6a
+  Stored in directory: c:\users\ralph\appdata\local\pip\cache\wheels\45\1d\eb\3efe9c53dd332ca4bb3ed617a30fea72d49c2f3a004ce867d5
+  Building wheel for stats-arrays (setup.py) ... done
+  Created wheel for stats-arrays: filename=stats_arrays-0.6.4-py3-none-any.whl size=26347 sha256=e71b3bee23115f83e7dd27f45d73198e5ed633f5dbde7de5c12b8a3331336698
+  Stored in directory: c:\users\ralph\appdata\local\pip\cache\wheels\1e\60\82\315efad8d45f4b5eb7d92181d1bb8ecf7e6d4c537a830f8b19
+Successfully built ensemble docopt pysut stats-arrays
+Installing collected packages: docopt, pyprind, pysut, stats-arrays, ensemble
+Successfully installed docopt-0.6.2 ensemble-0.0.dev1 pyprind-2.11.2 pysut-1.1 stats-arrays-0.6.4
